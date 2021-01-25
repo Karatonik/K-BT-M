@@ -1,0 +1,75 @@
+﻿@page "/"
+@using BlazorOSM.Models;
+@using System.Net.Http.Json
+@using BlazorOSM.Services
+@inject IJSRuntime JsRuntime
+@inject HttpClient http
+<div class="container">
+    <h1>Mateusz Kalksztejn , Filip Nowicki</h1>
+    <h2 class="text-muted">Programowanie w środowisku Windows Projekt</h2>
+    <div id="map"></div>
+    <div>
+        <button type="button" class="btn btn-primary" @onclick="GetData">Pobierz ulice</button>
+        <button type="button" class="btn btn-primary" @onclick="GetGeo">Załaduj mapę</button>
+        <button type="button" class="btn btn-primary" @onclick="SendCord">Wyślij</button>
+    </div>
+    <label id="address">@address</label>
+    <div>
+        <label id="xy"></label>
+    </div>
+
+</div>
+
+@code
+{ 
+    DataRequest dataRequest = new DataRequest();
+
+    String address = "";
+    String xy;
+    String cityAndStreet;
+    IJSObjectReference mapModule;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            mapModule = await JsRuntime.InvokeAsync<IJSObjectReference>(
+                "import", "./OSM.js");
+
+        }
+    }
+
+    Task setMap() =>
+        mapModule.InvokeVoidAsync("onButtonGet").AsTask();
+
+
+    async Task GetData()
+    {
+        
+        address = "Proszę czekać...";
+        cityAndStreet = await http.GetJsonAsync<String>("https://localhost:5001/api/GetStreet");
+        address = cityAndStreet;
+        Console.WriteLine(cityAndStreet);
+    }
+
+    async Task GetGeo()
+    {
+        await mapModule.InvokeVoidAsync("onButtonGet").AsTask();
+    }
+
+
+    async Task SendCord()
+    {
+        dataRequest.City = cityAndStreet.Split(",")[0];//todo
+        dataRequest.StreetName = cityAndStreet.Split(",")[1];//todo
+        dataRequest.StreetCordX = await mapModule.InvokeAsync<float>("getX");
+        dataRequest.StreetCordY = await mapModule.InvokeAsync<float>("getY");
+
+        Console.WriteLine(dataRequest.StreetCordX + " " + dataRequest.StreetCordY);
+
+        await http.PostJsonAsync<Boolean>("https://localhost:5001/api/SaveToDatabase", dataRequest);
+
+    }
+
+
+}

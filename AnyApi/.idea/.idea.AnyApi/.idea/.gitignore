@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.AnyApi.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\projekty\C\c#\Sulima projekt\Api\AnyApi\.idea\.idea.AnyApi\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

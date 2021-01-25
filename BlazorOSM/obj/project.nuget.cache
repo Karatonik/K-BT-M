@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tv3kNVJPjYg8LBrwTyneMrgh3p3P/EJ85QymfblR5FHDuHZp2Rr/Ty4XZqDiNt1x3FD2upl6xtnmQ2Ta2CtbGA==",
+  "success": true,
+  "projectFilePath": "E:\\projekty\\C\\c#\\Sulima projekt\\Api\\BlazorOSM\\BlazorOSM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gez19\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\gez19\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

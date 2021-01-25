@@ -1,0 +1,46 @@
+C:\Users\DRAGON\Desktop\AnyApi\obj\Debug\AnyApi.csprojAssemblyReference.cache
+C:\Users\DRAGON\Desktop\AnyApi\obj\Debug\AnyApi.csproj.CoreCompileInputs.cache
+C:\Users\DRAGON\Desktop\AnyApi\bin\AnyApi.dll.config
+C:\Users\DRAGON\Desktop\AnyApi\bin\AnyApi.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\AnyApi.pdb
+C:\Users\DRAGON\Desktop\AnyApi\bin\Newtonsoft.Json.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Net.Http.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Web.Http.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Web.Http.WebHost.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Web.Http.WebHost.xml
+C:\Users\DRAGON\Desktop\AnyApi\obj\Debug\AnyApi.csproj.CopyComplete
+C:\Users\DRAGON\Desktop\AnyApi\obj\Debug\AnyApi.dll
+C:\Users\DRAGON\Desktop\AnyApi\obj\Debug\AnyApi.pdb
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Net.Http.Formatting.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\System.Net.Http.Formatting.xml
+C:\Users\DRAGON\Desktop\AnyApi\bin\EntityFramework.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\EntityFramework.SqlServer.dll
+C:\Users\DRAGON\Desktop\AnyApi\bin\EntityFramework.xml
+C:\Users\DRAGON\Desktop\AnyApi\bin\EntityFramework.SqlServer.xml
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\AnyApi.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\AnyApi.pdb
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\EntityFramework.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\EntityFramework.SqlServer.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Net.Http.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Net.Http.Formatting.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Security.Cryptography.Algorithms.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Security.Cryptography.Encoding.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Security.Cryptography.Primitives.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Security.Cryptography.X509Certificates.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Web.Http.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Web.Http.WebHost.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\EntityFramework.xml
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\EntityFramework.SqlServer.xml
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Net.Http.Formatting.xml
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\System.Web.Http.WebHost.xml
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\obj\Debug\AnyApi.csprojAssemblyReference.cache
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\obj\Debug\AnyApi.csproj.CoreCompileInputs.cache
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\obj\Debug\AnyApi.csproj.CopyComplete
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\obj\Debug\AnyApi.dll
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\obj\Debug\AnyApi.pdb
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\AnyApi.dll.config
+E:\projekty\C\c#\Sulima projekt\Api\AnyApi\bin\Newtonsoft.Json.dll
